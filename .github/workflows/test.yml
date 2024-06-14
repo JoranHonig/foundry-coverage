@@ -32,3 +32,15 @@ jobs:
         run: |
           forge test -vvv
         id: test
+        
+      - name: Coverage
+        run: |
+          forge coverage --report lcov
+        id: coverage 
+
+      - name: upload coverage
+        uses: actions/upload-artifact@v4.3.3
+        with: 
+          name: lcov.info
+          path: lcov.info
+      
