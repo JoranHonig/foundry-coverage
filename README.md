@@ -8,7 +8,7 @@ Foundry consists of:
 -   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
 -   **Anvil**: Local Ethereum node, akin to Ganache,  Hardhat Network.
 -   **Chisel**: Fast, utilitar ian, and verbose solidity REPL. 
- 
+  
 ## Documentation 
 
 https://book.getfoundry.sh/ 
